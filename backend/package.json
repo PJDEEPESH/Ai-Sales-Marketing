@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@langchain/google-genai": "^0.0.11",
+    "cheerio": "^1.1.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "google-auth-library": "^10.1.0",
+    "googleapis": "^150.0.1",
+    "imapflow": "^1.0.189",
+    "langchain": "^0.3.29",
+    "mailparser": "^3.7.4",
+    "multer": "^2.0.1",
+    "node-cron": "^4.2.0",
+    "nodemailer": "^7.0.4",
+    "pg": "^8.16.3",
+    "puppeteer": "^24.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
