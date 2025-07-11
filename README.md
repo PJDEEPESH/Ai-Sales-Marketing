@@ -16,7 +16,7 @@ This project automates the sales outreach lifecycle — from lead ingestion, per
 | Auto-send via Email, LinkedIn          | ✅ Done   |
 | Follow-up Scheduling (2-5 days)        | ✅ Done   |
 | Inbound message detection (via n8n)    | ✅ Done   |
-| Auto AI Reply Draft (n8n + OpenAI)     | ✅ Done   |
+| Auto AI Reply Draft (n8n + Gemini api) | ✅ Done   |
 | Meeting Proposal + CRM Sync(Hub Spot)  | ✅ Done   |
 
 ---
