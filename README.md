@@ -513,34 +513,19 @@ Import the workflow manually or recreate using steps above
 .env          → Contains EMAIL + OPENAI keys
 ```
 **💡 Future Improvements**
-```bash
-Real-time calendar sync (Google/Outlook)
 
-Webhook-based trigger (instead of polling)
+**Real-time calendar sync (Google/Outlook)**
 
-WhatsApp / Telegram integration
+**Webhook-based trigger (instead of polling)**
 
-Lead scoring using AI
+**WhatsApp / Telegram integration**
 
-CRM dashboard view
+**Lead scoring using AI**
 
-Auto-link replies to conversation threads
-```
+**CRM dashboard view**
+
+**Auto-link replies to conversation threads**
+
 
 ---
-
-### 📎 How to Attach n8n Workflow to README
-
-1. **Export n8n Workflow:**
-   - In n8n, go to your workflow → click **three dots** (⋮) → `Export`
-   - Save as `.json` file (e.g., `inbound-handler.json`)
-
-2. **Put it in a folder:**  
-   Create a folder `/n8n-workflows` in your repo and upload the file there.
-
-3. **Link it in README (optional):**
-   At the end of your README, add:
-   ```markdown
-   ## 🔗 Workflow Files
-   - [inbound-handler.json](./n8n-workflows/inbound-handler.json)
 
